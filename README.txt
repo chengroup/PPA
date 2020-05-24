@@ -1,5 +1,5 @@
 # This file is part of custom scripts used in the article "Genotyping-free Parentage assignment
-# using RAD-seq reads" published by Chen et al. in Ecology and Evolution.
+# using RAD-seq reads" published by Chen et al.
 #
 #
 # These scripts are distributed in the hope that it will be useful,
