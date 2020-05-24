@@ -16,9 +16,9 @@ zcat ./out_dir/ustacks/P3.tags.tsv.gz > ./out_dir/ustacks/P3.tags.tsv
 ./fa_merge -i ./out_dir/primary_fa/C1.primary.fasta ./out_dir/primary_fa/P2.primary.fasta -o ./out_dir/merge_fa/C1P2.fasta
 ./fa_merge -i ./out_dir/primary_fa/C1.primary.fasta ./out_dir/primary_fa/P3.primary.fasta -o ./out_dir/merge_fa/C1P3.fasta
 
-ustacks -f ./out_dir/merge_fa/C1P1.fasta -o ./out_dir/fa_ustacks -i 12 --name C1P1 -m 1 -M 2 --max-locus-stacks 10 -t fasta
-ustacks -f ./out_dir/merge_fa/C1P2.fasta -o ./out_dir/fa_ustacks -i 13 --name C1P2 -m 1 -M 2 --max-locus-stacks 10 -t fasta
-ustacks -f ./out_dir/merge_fa/C1P3.fasta -o ./out_dir/fa_ustacks -i 14 --name C1P3 -m 1 -M 2 --max-locus-stacks 10 -t fasta
+ustacks -f ./out_dir/merge_fa/C1P1.fasta -o ./out_dir/fa_ustacks -i 12 --name C1P1 -m 1 -M 4 --max-locus-stacks 10 -t fasta
+ustacks -f ./out_dir/merge_fa/C1P2.fasta -o ./out_dir/fa_ustacks -i 13 --name C1P2 -m 1 -M 4 --max-locus-stacks 10 -t fasta
+ustacks -f ./out_dir/merge_fa/C1P3.fasta -o ./out_dir/fa_ustacks -i 14 --name C1P3 -m 1 -M 4 --max-locus-stacks 10 -t fasta
 
 ./tags_filter -i ./out_dir/fa_ustacks/C1P1.tags.tsv -o ./out_dir/fa_ustacks/C1P1.tags.tsv.clean
 ./tags_filter -i ./out_dir/fa_ustacks/C1P2.tags.tsv -o ./out_dir/fa_ustacks/C1P2.tags.tsv.clean
