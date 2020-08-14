@@ -1,6 +1,6 @@
 # This file is part of custom scripts used in the article "Genotyping-free Parentage assignment
-# using RAD-seq reads" published by Chen et al.
-#
+# using RAD-seq reads" published by Chen et al. Chen, S‐Y, Li, C, Luo, Z, et al. Genotyping‐free
+# parentage assignment using RAD‐seq reads. Ecol Evol. 2020; 10: 7783-7791. https://doi.org/10.1002/ece3.6503
 #
 # These scripts are distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
